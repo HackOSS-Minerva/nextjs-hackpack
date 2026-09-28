@@ -5,12 +5,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
@@ -19,6 +13,24 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Linting, Formatting, and Building
+
+This project uses [ESLint](https://eslint.org) for linting and [Prettier](https://prettier.io) for formatting. The commands below use `bun`.
+
+```bash
+# Lint the project
+bun run lint
+
+# Format all files with Prettier
+bun run format
+
+# Check that files are correctly formatted (without writing changes)
+bun run check
+
+# Build the project for production
+bun run build
+```
 
 ## Learn More
 
